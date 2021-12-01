@@ -4,5 +4,3 @@ Soy Bachiller de Sistemas y tengo 24 años de edad.
 Me encanta la naturaleza.
 
 No soy de celebrar navidad
-
-Quiero guardar este cambio en elvis_dev.
