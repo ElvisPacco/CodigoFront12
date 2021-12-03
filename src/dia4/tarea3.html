@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 3 - Formularios</title>
+</head>
+<body>
+    <h1>TAREA 3 - FORMULARIOS</h1>
+    <form action="get">
+        <table>
+            <tr>
+                <td colspan="2">
+                    <p>Los campos marcados con <b>*</b> son de inserción obligatoria</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="asunto">Asunto:</label>
+                </td>
+                <td>
+                    <input type="text" id="asunto" name="asunto">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="apellido_pat">*Primer apellido:</label>
+                </td>
+                <td>
+                    <input type="text" id="apellido_pat" name="apellido_pat">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="apellido_mat">*Segundo apellido:</label>
+                </td>
+                <td>
+                    <input type="text" id="apellido_mat" name="apellido_mat">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="nombres">*Nombres:</label>
+                </td>
+                <td>
+                    <input type="text" id="nombres" name="nombres">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="documentacion">DNI / Pasaporte / NIE:</label>
+                </td>
+                <td>
+                    <input type="text" id="documentacion" name="documentacion">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="correo">*Correo electrónico:</label>
+                </td>
+                <td>
+                    <input type="email" id="correo" name="correo">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="telefono">Teléfono:</label>
+                </td>
+                <td>
+                    <input type="number" id="telefono" name="telefono">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="sobre_que">¿Sobre qué?:</label>
+                </td>
+                <td>
+                    <select name="sobre_que" id="sobre_que">
+                        <option value="0">Elegir tema</option>
+                        <option value="1">Pelicula</option>
+                        <option value="2">Juegos</option>
+                        <option value="3">Aventura</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="que_escribira">¿Qué va a escribir?:</label>
+                </td>
+                <td>
+                    <select name="que_escribira" id="que_escribira">
+                        <option value="0">Elegir rama</option>
+                        <option value="1">Carta</option>
+                        <option value="2">Ensayo</option>
+                        <option value="3">Crítica</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="texto_escrito">*Texto del escrito:</label>
+                </td>
+                <td>
+                    <textarea name="texto_escrito" id="texto_escrito" cols="30" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Los datos personales facilitados son susceptibles de ...
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" id="enviar" name="Enviar">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>
