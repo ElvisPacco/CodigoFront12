@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dia 4 - Formularios</title>
+  </head>
+  <body>
+
+    <form action="" method>
+      <h4>Input texto</h4>
+
+      <fieldset>
+        <legend>Informacion de las personas</legend>
+        <input
+          type="text"
+          placeholder="Ingrese su nombre"
+          value="Pepito"
+          maxlength="10"
+          minlength="5"
+          name="nombre"
+        />
+        <h4>Input number</h4>
+        <input type="number" placeholder="Ingrese un numero" name="numero" />
+        <h4>Input fecha</h4>
+        <input
+          type="date"
+          placeholder="Ingrese una fecha"
+          name="fecha_nacimiento"
+        />
+        <h4>Input hora</h4>
+        <input type="time" placeholder="Ingrese una fecha" name="hora" />
+        <h4>Input archivo</h4>
+        <input type="file" placeholder="Ingrese un archivo" name="archivo" />
+      </fieldset>
+      <h4>Input color</h4>
+      <input type="color" placeholder="Ingrese un color" name="color" />
+      <h4>Input password</h4>
+      <input
+        type="password"
+        placeholder="Ingrese su password"
+        name="password"
+        required
+      />
+      <h4>Input email</h4>
+      <label for="email">Ingrese un correo</label>
+      <input
+        id="email"
+        type="email"
+        placeholder="Ingrese un email"
+        name="email"
+        required
+      />
+
+      <h4>Radio button</h4>
+      <label for="radio_1">
+        <input id="radio_1" type="radio" name="opcion_color" /> Rojo
+      </label>
+
+      <input type="radio" name="opcion_color" /> Azul
+      <input type="radio" name="opcion_color" /> Verde
+      <h4>Check box</h4>
+
+      <input type="checkbox" name="curso" /> Matematica
+      <input type="checkbox" name="curso" /> Lenguaje
+      <input type="checkbox" name="curso" /> HTML
+      <input type="checkbox" name="curso" /> JavaScript
+      <input type="checkbox" name="curso" /> CSS
+
+      <h4>Select</h4>
+      <select name="cursos_codigo">
+        <option value="" selected disabled></option>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="js">JavaScript</option>
+        <option value="rjs">React JS</option>
+      </select>
+
+      <select name="paises">
+        <option value="perú">Peru</option>
+        <option value="colombia" selected>Colombia</option>
+        <option value="chile">Chile</option>
+        <option value="mexico">Mexico</option>
+      </select>
+
+      <h4>Texarea</h4>
+      <textarea
+        placeholder="Ingrese un texto sobre usted"
+        name="text_sobre_mi"
+        rows="10"
+        cols="120"
+      ></textarea>
+
+      <h3>Submit</h3>
+      <input type="submit" value="Enviar datos" />
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>

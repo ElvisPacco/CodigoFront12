@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>TABLA DE PELICULAS</h1>
-    <table>
+    <table border="1">
         <thead>
             <tr>
                 <th>Nombre</th>
@@ -20,9 +20,134 @@
         </thead>
         <tbody>
             <tr>
-                
+                <td>Elvis</td>
+                <td>Pacco</td>
+                <td>999 999999</td>
+                <td>elvis@gmail.com</td>
+                <td>01/01/01</td>
+            </tr>
+            <tr>
+                <td>Jhon</td>
+                <td>Achata</td>
+                <td>999 888888</td>
+                <td>jhon_a@gmail.com</td>
+                <td>02/03/01</td>
+            </tr>
+            <tr>
+                <td>Jesús</td>
+                <td>Flores</td>
+                <td>999 777777</td>
+                <td>jflores@gmail.com</td>
+                <td>07/09/01</td>
             </tr>
         </tbody>
+    </table>
+    <h1>Tabla de Usuarios con imágenes</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+                <th>Foto</th>
+                <th>GitHub</th>                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Juan</td>
+                <td>Perez</td>
+                <td>23</td>
+                <td>
+                    <img src="https://www.radionacional.com.pe/sites/default/files/styles/note/public/e7d43d34-ba11-417a-a1f2-7db826b091c3.jpg?itok=XLW8nIGW" 
+                    alt="Miguel Grau" width="180">
+                </td>
+                <td>
+                    <a href="https://github.com/ElvisPacco/CodigoFront12">Link de GitHub</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Colspan - Combinar celdas</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th colspan="2">Nombres completos</th>
+          <th>Edad</th>
+          <th>Correo y foto</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Juan</td>
+            <td>Perez</td>
+            <td>22</td>
+            <td>juan@gmail.com</td>
+            <td><img src="../../imagenes/pavito.jpg" width="120" alt="" /></td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Rowspan - Combinar celdas</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Curso</th>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Edad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="3">HTML</td>
+          <td>Juan</td>
+          <td>Perez</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>Juan</td>
+          <td>Perez</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>Juan</td>
+          <td>Perez</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td rowspan="3">PHP</td>
+          <td>Juan</td>
+          <td>Perez</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>Juan</td>
+          <td>Perez</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>Juan</td>
+          <td>Perez</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td rowspan="3">PHP</td>
+          <td>Juan</td>
+          <td>Perez</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>Juan</td>
+          <td>Perez</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>Juan</td>
+          <td>Perez</td>
+          <td>30</td>
+        </tr>
+      </tbody>
     </table>
 </body>
 </html>

@@ -1,0 +1,69 @@
+/* PAra referencias todos los stylos se usa el caracter "*" */
+
+/* Se recomienda manipular solo Margin, Padding y Border-box*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Helvetica;
+    background-color: #ebebeb;
+}
+
+h1 {
+    color: #b41f1f;
+    background-color: #181818;
+    font-weight: bold;
+}
+
+section {
+    background-color: #fcfc39;
+    border: solid 1px #942121;
+}
+
+article p {
+    color: #747474;
+    text-align: center;
+}
+
+li a{
+    color: green;
+    text-decoration: none;
+}
+
+ul {
+    background-color: rgb(187, 187, 187);
+    padding: 3px;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    margin: 3px
+}
+
+div {
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    margin: 10px;
+}
+
+#titulo {
+    color: aquamarine;   
+}
+
+#text_introduccion {
+    text-align: justify;
+}
+
+#logo {
+    width: 150px;
+}
+
+
+
