@@ -1,0 +1,206 @@
+/*
+GLOBAL
+estilos globales, aca ira los selectores de 
+etiquetas globales
+*/
+body {
+  font-size: 24px;
+  font-family: arial;
+  background-color: #f5f5f5;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+section {
+  margin: 70px 0px;
+}
+
+section p{
+  line-height: 40px;
+  margin-bottom: 60px;
+}
+
+
+/* FIGURES */
+
+.main-figure{
+  display: flex;
+  justify-content: start;
+}
+
+.main-figure img {
+  width: 30%;
+  margin-right: 40px;
+  margin-bottom: 60px;
+}
+
+/*HEADER
+aca iran estilos del header
+*/
+
+.header {
+  background-color: #00AF1C;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.header > a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 64px;
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+}
+
+.header ul {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.header li {
+  margin-left: 20px;
+  font-size: 29px;
+}
+
+.header ul a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/*
+HOME
+aca iran estilos de la seccion home*/
+
+.main {
+  padding: 0px 40px;
+}
+
+.home h2 {
+  color: #3B06D2;
+}
+
+/*
+SERVICIOS
+aca iran estilos de la seccion servicios*/
+
+.servicios h2 {
+  color: #D206B2;
+}
+
+.servicios ul {
+  list-style: disc;
+  margin-left: 45px;
+}
+
+.servicios li {
+  line-height: 60px;
+  font-weight: bold;
+}
+
+.servicios li:nth-child(1) {
+  color: #FF0000;
+}
+.servicios li:nth-child(2) {
+  color: #1900ff;
+}
+.servicios li:nth-child(3) {
+  color: #c9b502;
+}
+.servicios li:nth-child(4) {
+  color: #01ddec;
+}
+
+/*
+PORTAFOLIO
+aca iran estilos de la seccion portafolio*/
+
+.portafolio h2 {
+  color: #AAD206;
+}
+
+.portafolio ul {
+  list-style: disc;
+  margin-left: 45px;
+}
+
+.portafolio li {
+  line-height: 60px;
+  font-weight: bold;  
+}
+
+.portafolio li:nth-child(1) {
+  color: #c29802;
+}
+.portafolio li:nth-child(2) {
+  color: #bb1919;
+}
+.portafolio li:nth-child(3) {
+  color: #240185;
+}
+.portafolio li:nth-child(4) {
+  color: #7b9901;
+}
+
+
+/*
+CONTACTO
+aca iran estilos de la seccion contacto*/
+
+.contacto h2 {
+  color: #06D2C6;
+}
+
+.contacto form {
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+}
+
+.contacto form input{
+  font-size: 22px;
+  padding: 20px;
+  margin: 20px 0px;
+  border-radius: 0px;
+}
+
+.contacto form textarea{
+  font-size: 22px;
+  padding: 30px;
+  margin: 20px 0px;
+  height: 200px;
+  border-radius: 0px;
+}
+
+.contacto .form-boton {
+  font-size: 27px;
+  width: 250px;
+  border: 1px solid #04ce30;
+  color: #04ce30;
+  background-color: #fff;
+}
+
+/*
+FOOTER
+aca iran estilos de la seccion footer*/
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #00AF1C;
+  color: white;
+  padding: 40px;
+  font-size: 28px;
+  font-weight: bold;
+
+}
