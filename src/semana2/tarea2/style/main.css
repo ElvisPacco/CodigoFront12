@@ -89,6 +89,9 @@ b {
 
 /* NOSOTROS */
 
+.nosotros {
+  margin-top: 80px;
+}
 
 .nosotros figure {
   display: flex;
