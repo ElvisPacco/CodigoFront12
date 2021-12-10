@@ -1,0 +1,175 @@
+
+/* GLOBALES */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: Arial;
+  background-color: #f5f5f5;
+}
+
+b {
+  font-weight: bold;
+}
+
+/* HEADER */
+
+.header {
+  background-color: #9ECEFA;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header img {
+  width: 100px;
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+}
+
+.header ul {
+  display: flex;
+}
+
+.header li {
+  margin-left: 15px;
+  padding-bottom: 4px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #9e017c;
+}
+
+.header ul li:first-child {
+  font-weight: bolder;
+  border-bottom: 2px solid #9e017c;
+}
+
+/* MAIN */
+
+.main {
+  padding: 25px;
+}
+
+.main h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #87119A
+  ;
+}
+
+.main p {
+  font-size: 16px;
+  margin-bottom: 25px;
+  line-height: 25px;
+}
+
+.main figure {
+  width: 95%;
+}
+
+.main img {
+  margin-bottom: 50px;
+}
+
+/* NOSOTROS */
+
+
+.nosotros figure {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nosotros img {
+  width: 32%;
+  margin-left: 20px;
+}
+
+
+/* SERVICIOS */
+
+.servicios {
+  margin-bottom: 40px;
+}
+
+.servicios p {
+  margin-bottom: 50px;
+}
+
+.servicios figure {
+  display: flex;
+  justify-content: center;
+}
+
+.servicios img {
+  width: 35%;
+  margin-left: 50px;
+}
+
+
+/* PORTAFOLIO */
+
+.portafolio figure {
+  display: flex;
+  justify-content: space-between;
+}
+
+.portafolio img {
+  width: 23%;
+}
+
+/* CONTACTO */
+
+.contacto-datos {
+  display: flex;
+  justify-content: start;
+}
+
+.contacto-datos div{
+  padding: 20px 25px;
+}
+
+.contacto-datos img {
+  width: 65%;
+  height: 65%;
+}
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #9ECEFA;
+  padding: 30px;
+  font: 14px;
+}
+
+.footer b {
+  color: #8a0183;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
