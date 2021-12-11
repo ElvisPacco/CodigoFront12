@@ -96,10 +96,12 @@ section > div {
 .sobre-mi button {
   background-color: #D16FFF;
   color: white;
+  font-size: 16px;
   font-weight: bold;
   width: 150px;
   padding: 15px;
-  border-radius: 10px;
+  border: 1px solid #a24cca;
+  border-radius: 12px;
   margin-top: 25px;
 }
 
