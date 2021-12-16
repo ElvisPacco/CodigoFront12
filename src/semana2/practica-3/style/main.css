@@ -153,14 +153,19 @@ section > div {
 
 .portafolio div {
   width: 75%;
-  margin-bottom: 10px;
   display: flex;
   flex-wrap: wrap;
+  gap: 2%;
+}
+
+.portafolio figure {
+  width: 23%;
+  flex-grow: 1;
+  margin-bottom: 1%;
 }
 
 .portafolio img {
-  width: 95%;
-  margin-bottom: 10px;
+  width: 100%;
 }
 
 /* CLIENTES */
