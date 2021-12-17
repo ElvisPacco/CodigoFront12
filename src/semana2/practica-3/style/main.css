@@ -217,13 +217,23 @@ section > div {
   min-width: 45%;
   flex-grow: 1; /* Ocupa todo el espacio disponible */
   padding: 20px;
+  outline: none;
+  border: 1px solid rgba(8, 0, 0, 0);
 }
 
 .contacto textarea {
   height: 120px;
   width: 100%;
   padding: 10px;
+  outline: none;
+  border: 1px solid rgba(8, 0, 0, 0);
 }
+
+.contacto input:hover,
+.contacto textarea:hover {
+  border: 1px solid rgb(75, 74, 74);
+}
+
 
 .contacto button {
   background-color: #233451;
@@ -233,4 +243,8 @@ section > div {
   margin: auto;
   margin-top: 15px;
   border-style: none;
+}
+
+.contacto button:hover {
+  cursor: pointer;
 }
