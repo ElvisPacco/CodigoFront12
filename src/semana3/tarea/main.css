@@ -1,0 +1,199 @@
+
+/* GLOBALES */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 6.25%;
+}
+
+body {
+    background-color: #eee;
+    font-family: arial;
+    font-size: 18rem;
+}
+
+h1 {
+    font-size: 30rem;
+}
+
+header, 
+footer,
+aside {
+    min-height: 75px;
+    color: white;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 960px;
+    margin: 0px auto;
+}
+
+/* HEADER */
+
+.header {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(187, 2, 2);
+}
+
+/* MAIN */
+
+.main {
+    display: flex;
+    flex-grow: 1;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(17, 45, 121);
+    padding-top: 10px;
+    min-width: 200px;
+}
+
+
+.main-div {
+    background-color: #ccc;
+    margin: 20px;
+    padding: 20px;
+}
+ 
+.main-div p,
+.main-div .figures {
+    margin-top: 25px;
+}
+
+.main-div .figures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.figures figure {
+    display: block;
+    width: 40%;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+.figures figure img{
+    width: 100%;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: rgb(187, 2, 2);
+}
+
+@media (max-width: 960px){
+    .wrap {
+        width: 100%;
+    }
+
+    aside {
+        min-width: 0px;
+    }
+}
+
+@media (max-width: 880px){
+    body {
+        font-size: 16rem;
+    }
+
+    h1 {
+        font-size: 25rem;
+    }
+
+    .header,
+    .footer {
+        background-color: #FFB800;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .aside {
+        background-color: #14D1A4;
+    }
+
+    .main-div {
+        background-color: #5300BC;
+    }
+
+    .main-div p,
+    .main-div .figures {
+        margin-top: 20px;
+    }
+
+    .main-div .figures  {
+        justify-content: space-between;
+    }
+
+    .figures figure {
+        width: 31.5%;
+    }
+
+    .figures figure {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    .figures figure {
+        width: 48%;
+    }
+}
+
+@media (max-width: 440px) {
+    body {
+        font-size: 14rem;
+    }
+
+    h1 {
+        font-size: 22rem;
+    }
+
+    .header,
+    .footer {
+        background-color: #000AFF;
+    }
+
+    .aside {
+        background-color: #5300BC;
+    }
+
+    .main-div {
+        background-color: #ccc;
+    }
+
+    .main-div p,
+    .main-div .figures {
+        margin-top: 15px;
+    }
+
+    .main-div .figures  {
+        justify-content: center;
+    }
+
+    .figures figure {
+        width: 90%;
+    }
+}
+
+@media (max-width: 320px) {
+    .main-div{
+        margin: 0px;
+    }
+}
