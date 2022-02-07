@@ -1,0 +1,56 @@
+/* MAIN */
+.main{
+    background-color: $bg-color-main;
+    padding: 30px;
+    font-size: $font-size-default;
+}
+
+/* INICIO */
+.inicio{
+    &__div{
+        display: flex;
+        .card{
+            width: 260px;
+            margin: 10px;
+            background-color: #ddd;
+            border: 1px solid #ccc;
+            &__img{
+                display: inline-block;
+                width: 100%;
+            }
+            
+            &__body{
+                margin: 0;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+
+                h3, p, a{
+                    margin-top: 12px;
+                }
+                h3{
+                    font-weight: bold;
+                }
+
+                .button{
+                    text-decoration: none;
+                    color: #fff;
+                    width: 170px;
+                    text-align: center;
+                    align-self: center;
+                    padding: 8px;
+
+                    &--primary{
+                        background-color: $color-primamry;
+                    }
+                    &--secondary{
+                        background-color: $color-secondary;
+                    }
+                    &--success{
+                        background-color: $color-success;
+                    }
+                }                
+            }
+        }
+    }
+}
